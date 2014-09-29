@@ -110,7 +110,7 @@
 
 (require 'helm-config)
 (require 'helm-misc)
-(require 'helm-projectile)
+(require-package 'helm-projectile)
 (require 'helm-locate)
 (setq helm-quick-update t
       helm-bookmark-show-location t
