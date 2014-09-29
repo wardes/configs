@@ -1,1 +1,9 @@
 *.swp
+
+emacs.d/auto-save-list
+emacs.d/backups
+emacs.d/cache
+emacs.d/elpa
+emacs.d/recentf
+emacs.d/savehist
+
