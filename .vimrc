@@ -33,9 +33,11 @@ Bundle 'kien/ctrlp.vim.git'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'majutsushi/tagbar'
 Bundle 'Lokaltog/vim-easymotion'
-
+Bundle 'Solarized'
 Bundle 'daveray/vimclojure-easy'
 Bundle 'VimClojure'
+
+Bundle 'elzr/vim-json'
 
 filetype plugin indent on
 "
@@ -61,3 +63,12 @@ nmap <F8> :TagbarToggle<CR>
 
 nmap <Leader><Left> :tabp<CR>
 nmap <Leader><Right> :tabn<CR>
+
+set background=dark
+colorscheme solarized
+
+set number
+
+nnoremap <CR> :noh<CR><CR>
+
+
